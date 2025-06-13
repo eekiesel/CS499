@@ -8,3 +8,11 @@ The capstone project for the Computer Science program at SNHU was required to de
 Below is a video code review of the original application as it was at the beginning of the class with planned enhancements. You can see a walkthrough of the app early in the video and it's clear how basic the fuctionality of the application is.
 
 ### insert video
+
+# Software Design and Engineering
+
+
+# Algorithms and Data Structure
+
+# Databases
+
