@@ -4,9 +4,8 @@ This repository contains my CS 499 capstone project for SNHU’s Computer Scienc
 
 🔗 [View my live portfolio](https://eekiesel.github.io/CS499/)
 
-This project demonstrates proficiency in:
-- Software design and engineering
-- Algorithms and data structures
+This project demonstrates my proficiency in:
+- Software Design and Engineering
+- Algorithms and Data Structures
 - Databases
 
-For detailed reflections and artifacts, see the GitHub Pages site linked above.
