@@ -45,9 +45,9 @@ My application at the end of CS 360 had limited functionality for the user, so I
 
 To enhance the user experience, I added custom maximum and minimum heap classes to track the highest and lowest weights efficiently. I also created a WeightTrendAnalyzer class that uses logic to detect the longest streak of consecutive days a user logs their weight, the longest streak of days their weight decreased, and their longest weight plateau where they saw very little change. So now instead of only seeing a list of entries, the user sees a visual graph of their weight progress as well as some quick stats regarding their minimum and maximum weight, as well as some streak data. There is evidence that streaks encourage users to engage more with apps (Anizoba, 2025), so including this as an enhancement could encourage the user to meet their weight goals and use the app more often.
 
+## Project Screenshots
 Below you can see the progress of the development of the application. The first image is at the end of CS 360, very basic, just a list of entries with dates. The second image is at the end of the Software Design and Engineering Milestone; overall, a better, more professional looking app with some meaningful information with the addition of a chart. Then the third image is the app currently, I’ve formatted the chart better with more meaningful date labels on the x-axis, it’s zoomable and scrollable, and has a clear goal marker on it. There are also some quick and meaningful stats for the user right below the chart and then the scrollable list is below that. I also formatted the dates to be in the format that most Americans are used to (month/date/year).
 
-## Project Screenshots
 
 <div>
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
@@ -81,7 +81,25 @@ I also realized that I have a habit of writing a lot of logic directly in HomeAc
 
 # Databases
 
-Text goes here.
+Working on this application for the Databases category of the capstone project allowed me to work with both a local database and a cloud-based one. The orignal application as designed for CS 360 stored all data locally using a SQLite database. To enhance the application, I added a Cloud Firestore database to allow for cloud syncing as well as the ability for a user to export their weight entry data to a CSV file. 
+
+I wrote the logic to sync entries between SQLite and Firestore, which included handling conflicts when the same entry existed in both places. To solve this, I used timestamps to decide which version to keep. I also built a way to track which entries needed to be synced and marked them as synced after uploading. These updates show I can build useful, real-world database features. The CSV export is an additional feature that allows users save or share their weight history outside of the app. 
+
+## Project Screenshots
+Below you can see a screenshot of the weight entries from my test user’s account in the Firestore database:
+
+<img src="images/Firestore.png" alt="Firestore screenshot" style="max-width: 100%; width: 400px; display: block; margin: 10px auto; border: 1px solid #ccc; border-radius: 8px;">
+
+I tested to make sure that when a new entry is added, it is included in both databases, as well as ensuring any edits or deletions are reflected in both the Firestore and SQLite databases. 
+
+Here you can see a slightly updated home page with an additional button along the bottom to allow a user to export their data as a CSV file: 
+
+<img src="images/Databases%20Milestone.png" alt="Updated home page screenshot" style="max-width: 100%; width: 400px; display: block; margin: 10px auto; border: 1px solid #ccc; border-radius: 8px;">
+
+And here’s a look at the CSV file created in the Download folder of the virtual device used for testing:
+
+<img src="images/CSV%20File.png" alt="CSV file screenshot" style="max-width: 100%; width: 400px; display: block; margin: 10px auto; border: 1px solid #ccc; border-radius: 8px;">
+
 
 
 ---
