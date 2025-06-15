@@ -94,7 +94,7 @@ I tested to make sure that when a new entry is added, it is included in both dat
 
 Here you can see a slightly updated home page with an additional button along the bottom to allow a user to export their data as a CSV file: 
 
-<img src="images/Databases%20Milestone.png" alt="Updated home page screenshot" style="max-width: 100%; width: 400px; display: block; margin: 10px auto; border: 1px solid #ccc; border-radius: 8px;">
+<img src="images/Databases%20Milestone.png" alt="Updated home page screenshot" style="max-width: 100%; width: 300px; display: block; margin: 10px auto; border: 1px solid #ccc; border-radius: 8px;">
 
 And here’s a look at the CSV file created in the Download folder of the virtual device used for testing:
 
