@@ -88,7 +88,7 @@ I wrote the logic to sync entries between SQLite and Firestore, which included h
 ## Project Screenshots
 Below you can see a screenshot of the weight entries from my test user’s account in the Firestore database:
 
-<img src="images/Firestore.png" alt="Firestore screenshot" style="max-width: 100%; width: 90%; display: block; margin: 10px auto; border: 1px solid #ccc; border-radius: 8px;">
+<img src="images/Firestore.png" alt="Firestore screenshot" style="max-width: 100%; width: 100%; display: block; margin: 10px auto; border: 1px solid #ccc; border-radius: 8px;">
 
 I tested to make sure that when a new entry is added, it is included in both databases, as well as ensuring any edits or deletions are reflected in both the Firestore and SQLite databases. 
 
@@ -98,7 +98,7 @@ Here you can see a slightly updated home page with an additional button along th
 
 And here’s a look at the CSV file created in the Download folder of the virtual device used for testing:
 
-<img src="images/CSV%20File.png" alt="CSV file screenshot" style="max-width: 100%; width: 90%; display: block; margin: 10px auto; border: 1px solid #ccc; border-radius: 8px;">
+<img src="images/CSV%20File.png" alt="CSV file screenshot" style="max-width: 100%; width: 100%; display: block; margin: 10px auto; border: 1px solid #ccc; border-radius: 8px;">
 
 
 
