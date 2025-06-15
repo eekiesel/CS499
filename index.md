@@ -49,19 +49,23 @@ Below you can see the progress of the development of the application. The first 
 
 <h2>Project Screenshots</h2>
 
-<div style="display: flex; gap: 16px; flex-wrap: wrap;">
-  <div>
-    <img src="images/CS%20360%20Homepage.png" alt="CS 360 Homepage" width="300"><br>
-    <p style="text-align: center;">CS 360 Homepage</p>
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+  <div style="flex: 1; max-width: 250px; text-align: center;">
+    <img src="images/CS%20360%20Homepage.png" alt="CS 360 Homepage" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <p>CS 360 Homepage</p>
   </div>
-  <div>
-    <img src="images/Software%20Design%20%26%20Engineering%20Milestone.png" alt="Software Design & Engineering" width="300"><br>
-    <p style="text-align: center;">Design & Engineering Milestone</p>
+
+  <div style="flex: 1; max-width: 250px; text-align: center;">
+    <img src="images/Software%20Design%20%26%20Engineering%20Milestone.png" alt="Software Design & Engineering" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <p>Design & Engineering Milestone</p>
   </div>
-  <div>
-    <img src="images/Algorithms%20%26%20Data%20Structures%20Milestone.png" alt="Algorithms & Data Structures" width="300"><br>
-    <p style="text-align: center;">Algorithms & Data Structures Milestone</p>
+
+  <div style="flex: 1; max-width: 250px; text-align: center;">
+    <img src="images/Algorithms%20%26%20Data%20Structures%20Milestone.png" alt="Algorithms & Data Structures" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <p>Algorithms & Data Structures</p>
   </div>
+
 </div>
 
 ---
