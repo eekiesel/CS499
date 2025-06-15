@@ -47,7 +47,7 @@ To enhance the user experience, I added custom max and min heap classes to track
 
 Below you can see the progress of the development of the application. The first image is at the end of CS 360, very basic, just a list of entries with dates. The second image is at the end of the Software Design and Engineering Milestone; overall, a better, more professional looking app with some meaningful information with the addition of a chart. Then the third image is the app currently, I’ve formatted the chart better with more meaningful date labels on the x-axis, it’s zoomable and scrollable, and has a clear goal marker on it. There are also some quick and meaningful stats for the user right below the chart and then the scrollable list is below that. I also formatted the dates to be in the format that most Americans are used to (month/date/year).
 
-<h3>Project Screenshots</h3>
+<h4>Project Screenshots</h4>
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
   <div style="flex: 1; max-width: 250px; text-align: center;">
