@@ -100,6 +100,8 @@ And here’s a look at the CSV file created in the Download folder of the virtua
 
 <img src="images/CSV%20File.png" alt="CSV file screenshot" style="max-width: 100%; width: 100%; display: block; margin: 10px auto; border: 1px solid #ccc; border-radius: 8px;">
 
+## Reflection
+Adding Firebase was a bit of a struggle for me. It’s not something that I’ve had experience with in any of my classes, other than just reading about it. Once I felt like I had my code implemented for it to work, my application just stopped loading when I was testing it. It wasn’t crashing, it was just freezing when I was trying to load it. This caused me to be stuck for quite a while, making a lot of changes and getting nowhere. Eventually I sought help from a friend of mine that has experience with developing apps and he suggested clearing the data from the emulator, and suddenly my application was loading. It was frustrating to realize that the solution to my problem was something simple that I just hadn’t considered. But the experience really illustrates the importance of talking through problems with others and not being afraid to seek guidance from someone more experienced. Overall, this enhancement helped me get more comfortable working with different types of databases. 
 
 
 ---
