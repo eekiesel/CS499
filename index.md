@@ -92,19 +92,19 @@ Below you can see the progress of the development of the application. The first 
 
 <div style="flex: 1; max-width: 250px; text-align: center;">
       <img src="images/CS%20360%20Homepage.png" alt="CS 360 Homepage"
-           style="height: 250px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+           style="height: 300px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
       <p>CS 360 Homepage</p>
     </div>
 
 <div style="flex: 1; max-width: 250px; text-align: center;">
       <img src="images/Software%20Design%20%26%20Engineering%20Milestone.png" alt="Software Design & Engineering"
-           style="height: 250px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+           style="height: 300px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
       <p>Design & Engineering Milestone</p>
     </div>
 
 <div style="flex: 1; max-width: 250px; text-align: center;">
       <img src="images/Algorithms%20%26%20Data%20Structures%20Milestone.png" alt="Algorithms & Data Structures"
-           style="height: 250px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+           style="height: 300px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
       <p>Algorithms & Data Structures Milestone</p>
     </div>
 
