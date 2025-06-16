@@ -74,7 +74,7 @@ One challenge that I faced was caused by the fact that it had been about six mon
 
 While I began the process of implementing Jetpack Navigation to modernize the app’s navigation flow, I encountered several development challenges along the way. There were some integration errors and refactoring problems that ended up being more time-consuming than I expected, and with the tight schedule of the eight-week course, I wasn’t able to get it fully working without errors. Even though I didn’t finish that part, I learned a lot about how Jetpack Navigation works and how it can help make an app more organized and easier to maintain. If I were building an app like this again, I’d definitely plan to use it from the beginning—it would make things cleaner and more scalable in the long run.
 
-Despite the challenges, I fell the enhancements and updates I was able to complete significantly improve  both the design and structure of the application and bring it much closer to what you would expect from a production-quality mobile application. 
+Despite the challenges, I feel the enhancements and updates I was able to complete significantly improve  both the design and structure of the application and bring it much closer to what you would expect from a production-quality mobile application. 
 
 ---
 
