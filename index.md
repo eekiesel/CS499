@@ -46,7 +46,19 @@ While Jetpack Navigation was originally part of my proposal, I was unsuccessful 
 ## Project Screenshots
 The completed updates help make the app closer to what you’d expect from a real-world mobile application in terms of usability and appearance. Below are screenshots comparing the original home screen with the redesigned version completed for this milestone:
 
+<div align="center" style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
 
+  <div style="flex: 1; max-width: 300px; text-align: center;">
+    <img src="images/CS%20360%20Homepage.png" alt="CS 360 Homepage" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+    <p>Original Homepage</p>
+  </div>
+
+  <div style="flex: 1; max-width: 300px; text-align: center;">
+    <img src="images/Software%20Design%20%26%20Engineering%20Milestone.png" alt="Design & Engineering Milestone" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+    <p>Updated Homepage</p>
+  </div>
+
+</div>
   
 
 The updated design is cleaner and more modern, with improved spacing, typography, and layout. A weight progress chart has been added to provide users with a quick visual summary of their trends. The entry list now uses icons for editing and deleting entries and is scrollable for easier access to past data. One improvement still in progress is updating the chart’s x-axis to display dates rather than entry numbers.
