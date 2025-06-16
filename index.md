@@ -49,12 +49,14 @@ The completed updates help make the app closer to what you’d expect from a rea
 <div align="center" style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
 
   <div style="flex: 1; max-width: 300px; text-align: center;">
-    <img src="images/CS%20360%20Homepage.png" alt="CS 360 Homepage" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="images/CS%20360%20Homepage.png" alt="CS 360 Homepage"
+         style="height: 250px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
     <p>Original Homepage</p>
   </div>
 
   <div style="flex: 1; max-width: 300px; text-align: center;">
-    <img src="images/Software%20Design%20%26%20Engineering%20Milestone.png" alt="Design & Engineering Milestone" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="images/Software%20Design%20%26%20Engineering%20Milestone.png" alt="Design & Engineering Milestone"
+         style="height: 250px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
     <p>Updated Homepage</p>
   </div>
 
