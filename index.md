@@ -87,30 +87,30 @@ To enhance the user experience, I added custom maximum and minimum heap classes 
 ## Project Screenshots
 Below you can see the progress of the development of the application. The first image is at the end of CS 360, very basic, just a list of entries with dates. The second image is at the end of the Software Design and Engineering Milestone; overall, a better, more professional looking app with some meaningful information with the addition of a chart. Then the third image is the app currently, I’ve formatted the chart better with more meaningful date labels on the x-axis, it’s zoomable and scrollable, and has a clear goal marker on it. There are also some quick and meaningful stats for the user right below the chart and then the scrollable list is below that. I also formatted the dates to be in the format that most Americans are used to (month/date/year).
 
-
 <div>
   <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
     <div style="flex: 1; max-width: 250px; text-align: center;">
       <img src="images/CS%20360%20Homepage.png" alt="CS 360 Homepage"
-           style="height: 350px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+           style="height: 250px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
       <p>CS 360 Homepage</p>
     </div>
 
     <div style="flex: 1; max-width: 250px; text-align: center;">
       <img src="images/Software%20Design%20%26%20Engineering%20Milestone.png" alt="Software Design & Engineering"
-           style="height: 350px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+           style="height: 250px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
       <p>Design & Engineering Milestone</p>
     </div>
 
     <div style="flex: 1; max-width: 250px; text-align: center;">
       <img src="images/Algorithms%20%26%20Data%20Structures%20Milestone.png" alt="Algorithms & Data Structures"
-           style="height: 350px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
+           style="height: 250px; width: auto; object-fit: cover; border: 1px solid #ccc; border-radius: 8px;">
       <p>Algorithms & Data Structures Milestone</p>
     </div>
 
   </div>
 </div>
+
 
 ## Reflection
 Enhancing and modifying this artifact  for the Algorithms and Data Structures portion of the capstone project taught me a lot about how to take a simple app and start adding more meaningful features behind the scenes. Figuring out how to calculate trends like streaks and plateaus pushed me to think more carefully about how to structure the data and how to compare dates and weights efficiently. 
