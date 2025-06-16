@@ -35,7 +35,43 @@ Below is a link to a video of a code review of the original application as it wa
 
 # Software Design and Engineering
 
-Text goes here.
+This project was selected because it had a solid foundation but a lot of room for improvement that would allow me to showcase improvements in software design and engineering. I focused on improving both the structure and maintainability of the application, along with significantly enhancing the user interface to follow modern mobile design standards.
+
+From a design perspective, one of the most important changes I made was restructuring the app’s logic by introducing helper classes such as GoalManager and NotificationHelper. This modular approach allowed me to isolate key responsibilities and improve code organization, readability, and reusability. Instead of having all logic embedded directly in activities, responsibilities like goal tracking and SMS notifications are now handled by dedicated components that follow single-responsibility principles.
+
+From a design perspective, one of the most important changes I made was restructuring the app’s logic by introducing helper classes such as GoalManager and NotificationHelper. This modular approach allowed me to isolate key responsibilities and improve code organization, readability, and reusability. Instead of having all logic embedded directly in activities, responsibilities like goal tracking and SMS notifications are now handled by dedicated components that follow single-responsibility principles. The weight entry list was improved with better formatting, scrollability, and updated visual indicators for edit/delete actions, enhancing both usability and aesthetics.
+
+While Jetpack Navigation was originally part of my proposal, I was unsuccessful in implementing it for this project and I chose to defer this feature in order to focus on polishing the app’s core structure and user experience for this milestone. I also laid the groundwork for profile management by using SharedPreferences to persist the current user ID across sessions. 
+
+## Project Screenshots
+The completed updates help make the app closer to what you’d expect from a real-world mobile application in terms of usability and appearance. Below are screenshots comparing the original home screen with the redesigned version completed for this milestone:
+
+<div>
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+  <div style="flex: 1; max-width: 250px; text-align: center;">
+    <img src="images/CS%20360%20Homepage.png" alt="CS 360 Homepage" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <p>CS 360 Homepage</p>
+  </div>
+
+  <div style="flex: 1; max-width: 250px; text-align: center;">
+    <img src="images/Software%20Design%20%26%20Engineering%20Milestone.png" alt="Software Design & Engineering" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <p>Design & Engineering Milestone</p>
+  </div>
+  </div>
+
+The updated design is cleaner and more modern, with improved spacing, typography, and layout. A weight progress chart has been added to provide users with a quick visual summary of their trends. The entry list now uses icons for editing and deleting entries and is scrollable for easier access to past data. One improvement still in progress is updating the chart’s x-axis to display dates rather than entry numbers.
+
+## Reflection
+Working on these enhancements helped me see how much impact thoughtful design has on an application. It’s not just about getting the app to run without errors, it’s about creating a product that feels polished, is easy to use, and aligns with user expectations. Once I started using Material Design components and refining the layout, the app began to look and feel more professional and user-friendly.
+
+Restructuring parts of the codebase also had a big impact. Breaking logic into dedicated helper classes like GoalManager and NotificationHelper made the codebase more modular and easier to manage. Ideally I would have developed the app in this fashion from the start, but doing it after the fact meant that I had to take extra steps for testing to ensure that the application continued to function as expected. 
+
+One challenge that I faced was caused by the fact that it had been about six months since I took the class that I had originally developed this application in. While some parts of my code were well documented and allowed me to quickly refresh myself on what was going on, some others wern't so well documented, so just going over my code and understanding it sometimes took some extra time. This really highlighted the importance of consistent commenting throughout my code so that I (or someone else looking at it) could quickly understand what each section was meant to accomplish. 
+
+While I began the process of implementing Jetpack Navigation to modernize the app’s navigation flow, I encountered several development challenges along the way. There were some integration errors and refactoring problems that ended up being more time-consuming than I expected, and with the tight schedule of the eight-week course, I wasn’t able to get it fully working without errors. Even though I didn’t finish that part, I learned a lot about how Jetpack Navigation works and how it can help make an app more organized and easier to maintain. If I were building an app like this again, I’d definitely plan to use it from the beginning—it would make things cleaner and more scalable in the long run.
+
+Despite the challenges, I fell the enhancements and updates I was able to complete significantly improve  both the design and structure of the application and bring it much closer to what you would expect from a production-quality mobile applicaiton. 
 
 ---
 
