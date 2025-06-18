@@ -17,18 +17,22 @@ This project not only allowed me to demonstrate the technical skills I’ve deve
 You'll find a summary of the narratives for each enhancement category in the sections below. Each narritive describes the work completed, some of the challenges I ran into, and how the updates reflect what I’ve learned and how my skills have grown. I’ve also included links to the original PDF submissions in the GitHub repository for each category if you’d like to take a closer look.
 
 ##  Course Outcomes
-I believe the work I’ve done for this capstone project shows that I’ve met all of the course outcomes and reflects the knowledge and skills I’ve built throughout the Computer Science program:
+I believe the work I’ve done for this capstone project shows that I’ve met all of the course outcomes and reflects the knowledge and skills I’ve built throughout the Computer Science program. Below are some examples of how I've met each course outcome:
 
  **Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science**
+I’ve practiced creating clean, readable code and writing clear documentation, which is important when working on a team in a collaborative environment. I’ve used GitHub to share code and organize work, which supports future collaboration. I’ve also taken measures to consider the needs of my users and made decisions that support those needs.
 
 **Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts**
+This ePortfolio, along with the written milestone reports and accompanying visuals, demonstrate my ability to communicate technical work in a clear and professional way. I focused on writing explanations that would make sense to both technical and non-technical audiences, and the screenshots provide visual context to highlight the improvements made to the application’s design, usability, and functionality.
 
 **Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices**
+To improve my app’s ability to track and analyze user progress, I designed custom logic using helper classes like WeightTrendAnalyzer and a utility class WeightHeapUtil to calculate things like streaks and trends. These features required me to think through how to structure the algorithms in a way that was both efficient and easy to maintain. I also used timestamps to resolve data conflicts between local and cloud storage, which reflects my ability to make design trade-offs between complexity, performance, and usability.
 
 **Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals**
+Throughout this project, I incorporated tools like MPAndroidChart to create a visual dashboard and Firebase to enable real-time data syncing across devices. I also redesigned the interface using Material Design 3 components, which helped make the app cleaner, easier to use, and more consistent with current mobile design standards. In addition to those visual improvements, I added two-way synchronization between Firebase and SQLite, as well as a CSV export feature, allowing users to save or transfer their data. These enhancements show my ability to apply practical, real-world tools and techniques that provide value to users.
 
 **Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources**
-
+Although this app doesn’t manage highly sensitive data, I still approached the design with security in mind. I implemented input validation, ensured that session data is handled securely, and avoided hardcoded credentials. I also thought about what would be required to make the app production-ready in the future, like adding authentication and data encryption. Even though those weren’t fully implemented due to time constraints, I’ve developed a security-aware mindset and understand what steps would be needed to protect user data in a real-world deployment.
 
 ---
 
@@ -56,8 +60,6 @@ Below is a link to a video of a code review of the original application as it wa
 # Software Design and Engineering
 
 This project was selected because it had a solid foundation but a lot of room for improvement that would allow me to showcase improvements in software design and engineering. I focused on improving both the structure and maintainability of the application, along with significantly enhancing the user interface to follow modern mobile design standards.
-
-From a design perspective, one of the most important changes I made was restructuring the app’s logic by introducing helper classes such as GoalManager and NotificationHelper. This modular approach allowed me to isolate key responsibilities and improve code organization, readability, and reusability. Instead of having all logic embedded directly in activities, responsibilities like goal tracking and SMS notifications are now handled by dedicated components that follow single-responsibility principles.
 
 From a design perspective, one of the most important changes I made was restructuring the app’s logic by introducing helper classes such as GoalManager and NotificationHelper. This modular approach allowed me to isolate key responsibilities and improve code organization, readability, and reusability. Instead of having all logic embedded directly in activities, responsibilities like goal tracking and SMS notifications are now handled by dedicated components that follow single-responsibility principles. The weight entry list was improved with better formatting, scrollability, and updated visual indicators for edit/delete actions, enhancing both usability and aesthetics.
 
