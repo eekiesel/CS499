@@ -6,15 +6,35 @@ layout: default
 ---
 # Professional Self Assessment
 
-To be completed
+Hello! My name is Erin and this is my ePortfolio for CS 499, the Computer Science Capstone course at Southern New Hampshire University. This course gave me the opportunity to take a project I had previously developed and enhance it using the skills and knowledge I’ve gained throughout the Computer Science program.
+
+As I’ve worked toward my Bachelor of Science degree in Computer Science with a concentration in Data Analysis, I’ve built a solid foundation in both core computer science concepts and practical, hands-on experience. I’ve developed skills in programming languages such as C++, Java, Python, SQL, and R, and I’ve applied object-oriented programming principles across multiple projects. I also gained a strong understanding of agile development practices and how to adapt them to a variety of software development scenarios.
+
+For my capstone, I chose to enhance a mobile application originally created in my Mobile Architecture and Programming course. I applied enhancements across all three required categories: Software Design and Engineering, Algorithms and Data Structures, and Databases. 
+
+This project not only allowed me to demonstrate the technical skills I’ve developed, but also challenged me to think critically about design decisions, user experience, and long-term maintainability. I focused on applying real-world development practices by refactoring code to improve structure and readability, implementing new features that added real value to the user, and integrating third-party libraries and cloud services to extend functionality. Each enhancement aligned with one of the program outcomes and encouraged me to apply what I’ve learned in a cohesive and thoughtful way.
+
+You'll find a summary of the narratives for each enhancement category in the sections below. Each narritive describes the work completed, some of the challenges I ran into, and how the updates reflect what I’ve learned and how my skills have grown. I’ve also included links to the original PDF submissions in the GitHub repository for each category if you’d like to take a closer look.
+
+##  Course Outcomes
+I believe the work I’ve done for this capstone project shows that I’ve met all of the course outcomes and reflects the knowledge and skills I’ve built throughout the Computer Science program:
+
+ **Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science**
+
+**Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts**
+
+**Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices**
+
+**Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals**
+
+**Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources**
+
 
 ---
 
 # Artifact Selection
 
-The capstone project for the Computer Science program at SNHU was required to demonstrate my skills in the three key categories: Software Design and Engineering, Algorithms and Data Structure, and Databases. 
-I chose to select one artifact that I could work with to show my skills in all three categories. I chose to work with the weight tracking Android application that I origninaly developed in CS 360: Mobile architecture in Programming that I took in Fall 2024. 
-This was a very basic weight tracking application developed in Android Studio. It allowed users to log in, track their weight, set a goal weight, and edit and delete entries using a local SQLite database. 
+The capstone project for the Computer Science program at SNHU was required to demonstrate my skills in the three key categories: Software Design and Engineering, Algorithms and Data Structure, and Databases. I chose to select one artifact that I could work with to show my skills in all three categories. I chose to work with the weight tracking Android application that I origninaly developed in CS 360: Mobile Architecture in Programming that I took in Fall 2024. This was a very basic weight tracking application developed in Android Studio. It allowed users to log in, track their weight, set a goal weight, and edit and delete entries using a local SQLite database. 
 
 The enhancements of my weight tracking application were done in stages, first tackling Software Design and Engineering, then Algorithms and Data Structure, and then Databases. Below you'll find narratives for these enhancements as they were developed.
 
