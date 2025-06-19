@@ -4,7 +4,7 @@ layout: default
 ---
 
 ---
-# Professional Self Assessment
+# Professional Self-Assessment
 
 Hello! My name is Erin and this is my ePortfolio for CS 499, the Computer Science Capstone course at Southern New Hampshire University. This course gave me the opportunity to take a project I had previously developed and enhance it using the skills and knowledge I’ve gained throughout the Computer Science program.
 
@@ -12,7 +12,7 @@ As I’ve worked toward my Bachelor of Science degree in Computer Science with a
 
 For my capstone, I chose to enhance a mobile application originally created in my Mobile Architecture and Programming course. I applied enhancements across all three required categories: Software Design and Engineering, Algorithms and Data Structures, and Databases. 
 
-This project not only allowed me to demonstrate the technical skills I’ve developed, but also challenged me to think critically about design decisions, user experience, and long-term maintainability. I focused on applying real-world development practices by refactoring code to improve structure and readability, implementing new features that added real value to the user, and integrating third-party libraries and cloud services to extend functionality. Each enhancement aligned with one of the program outcomes and encouraged me to apply what I’ve learned in a cohesive and thoughtful way.
+This project not only allowed me to demonstrate the technical skills I’ve developed but also challenged me to think critically about design decisions, user experience, and long-term maintainability. I focused on applying real-world development practices by refactoring code to improve structure and readability, implementing new features that added real value to the user, and integrating third-party libraries and cloud services to extend functionality. Each enhancement aligned with one of the program outcomes and encouraged me to apply what I’ve learned in a cohesive and thoughtful way.
 
 You'll find a summary of the narratives for each enhancement category in the sections below. Each narrative describes the work completed, some of the challenges I ran into, and how the updates reflect what I’ve learned and how my skills have grown. I’ve also included links to the original PDF submissions in the GitHub repository for each category if you’d like to take a closer look.
 
@@ -47,7 +47,7 @@ Although this app doesn’t manage highly sensitive data, I still approached the
 
 # Artifact Selection
 
-The capstone project for the Computer Science program at SNHU was required to demonstrate my skills in the three key categories: Software Design and Engineering, Algorithms and Data Structure, and Databases. I chose to select one artifact that I could work with to show my skills in all three categories. I chose to work with the weight tracking Android application that I origninaly developed in CS 360: Mobile Architecture in Programming that I took in Fall 2024. This was a very basic weight tracking application developed in Android Studio. It allowed users to log in, track their weight, set a goal weight, and edit and delete entries using a local SQLite database. 
+The capstone project for the Computer Science program at SNHU was required to demonstrate my skills in the three key categories: Software Design and Engineering, Algorithms and Data Structure, and Databases. I chose to select one artifact that I could work with to show my skills in all three categories. I chose to work with the weight tracking Android application that I originally developed in CS 360: Mobile Architecture in Programming that I took in Fall 2024. This was a very basic weight tracking application developed in Android Studio. It allowed users to log in, track their weight, set a goal weight, and edit and delete entries using a local SQLite database. 
 
 The enhancements of my weight tracking application were done in stages, first tackling Software Design and Engineering, then Algorithms and Data Structure, and then Databases. Below you'll find narratives for these enhancements as they were developed.
 
@@ -99,9 +99,9 @@ The updated design is cleaner and more modern, with improved spacing, typography
 ## Reflection
 Working on these enhancements helped me see how much impact thoughtful design has on an application. It’s not just about getting the app to run without errors, it’s about creating a product that feels polished, is easy to use, and aligns with user expectations. Once I started using Material Design components and refining the layout, the app began to look and feel more professional and user-friendly.
 
-Restructuring parts of the codebase also had a big impact. Breaking logic into dedicated helper classes like GoalManager and NotificationHelper made the codebase more modular and easier to manage. Ideally I would have developed the app in this fashion from the start, but doing it after the fact meant that I had to take extra steps for testing to ensure that the application continued to function as expected. 
+Restructuring parts of the codebase also had a big impact. Breaking logic into dedicated helper classes like GoalManager and NotificationHelper made the codebase more modular and easier to manage. Ideally, I would have developed the app in this fashion from the start but doing it after the fact meant that I had to take extra steps for testing to ensure that the application continued to function as expected. 
 
-One challenge that I faced was caused by the fact that it had been about six months since I took the class that I had originally developed this application in. While some parts of my code were well documented and allowed me to quickly refresh myself on what was going on, some others wern't so well documented, so just going over my code and understanding it sometimes took some extra time. This really highlighted the importance of consistent commenting throughout my code so that I (or someone else looking at it) could quickly understand what each section was meant to accomplish. 
+One challenge that I faced was caused by the fact that it had been about six months since I took the class that I had originally developed this application in. While some parts of my code were well documented and allowed me to quickly refresh myself on what was going on, some others weren't so well documented, so just going over my code and understanding it sometimes took some extra time. This really highlighted the importance of consistent commenting throughout my code so that I (or someone else looking at it) could quickly understand what each section was meant to accomplish. 
 
 While I began the process of implementing Jetpack Navigation to modernize the app’s navigation flow, I encountered several development challenges along the way. There were some integration errors and refactoring problems that ended up being more time-consuming than I expected, and with the tight schedule of the eight-week course, I wasn’t able to get it fully working without errors. Even though I didn’t finish that part, I learned a lot about how Jetpack Navigation works and how it can help make an app more organized and easier to maintain. If I were building an app like this again, I’d definitely plan to use it from the beginning—it would make things cleaner and more scalable in the long run.
 
@@ -154,9 +154,9 @@ I also realized that I have a habit of writing a lot of logic directly in HomeAc
 
 # Databases
 
-Working on this application for the Databases category of the capstone project allowed me to work with both a local database and a cloud-based one. The orignal application as designed for CS 360 stored all data locally using a SQLite database. To enhance the application, I added a Cloud Firestore database to allow for cloud syncing as well as the ability for a user to export their weight entry data to a CSV file. 
+Working on this application for the Databases category of the capstone project allowed me to work with both a local database and a cloud-based one. The original application as designed for CS 360 stored all data locally using a SQLite database. To enhance the application, I added a Cloud Firestore database to allow for cloud syncing as well as the ability for a user to export their weight entry data to a CSV file. 
 
-I wrote the logic to sync entries between SQLite and Firestore, which included handling conflicts when the same entry existed in both places. To solve this, I used timestamps to decide which version to keep. I also built a way to track which entries needed to be synced and marked them as synced after uploading. These updates show I can build useful, real-world database features. The CSV export is an additional feature that allows users save or share their weight history outside of the app. 
+I wrote the logic to sync entries between SQLite and Firestore, which included handling conflicts when the same entry existed in both places. To solve this, I used timestamps to decide which version to keep. I also built a way to track which entries needed to be synced and marked them as synced after uploading. These updates show I can build useful, real-world database features. The CSV export is an additional feature that allows users to save or share their weight history outside of the app. 
 
 ## Project Screenshots
 Below you can see a screenshot of the weight entries from my test user’s account in the Firestore database:
