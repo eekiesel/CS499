@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/goalEntryLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundTealTint"
+    android:padding="24dp"
+    tools:context=".GoalEntryActivity">
+
+    <!-- title -->
+    <TextView
+        android:id="@+id/weightEntryTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_enter_goal_weight"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="48dp"
+        android:gravity="center" />
+
+    <!-- weight input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/goalWeightInputLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_goal_weight_input"
+        app:layout_constraintTop_toBottomOf="@id/weightEntryTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/goalWeightInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:autofillHints="weight"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- save button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/saveButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_save"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/goalWeightInputLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- cancel button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cancelButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_cancel"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/saveButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- SMS permission button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/requestSmsPermissionButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_SMS"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/cancelButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

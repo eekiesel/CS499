@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/backgroundTealTint"
+    tools:context=".HomeActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_weight_history"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Goal Weight -->
+    <TextView
+        android:id="@+id/goalWeightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_goal_weight"
+        android:textSize="16sp"
+        android:textColor="?android:textColorSecondary"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp" />
+
+
+
+    <!-- Line Chart -->
+    <FrameLayout
+        android:id="@+id/chartContainer"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/goalWeightTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/weightLineChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/resetZoomButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_zoom"
+            android:backgroundTint="?attr/colorPrimary"
+            android:textColor="@android:color/white"
+            android:elevation="4dp"
+            android:layout_gravity="end|top"
+            android:layout_margin="8dp"/>
+    </FrameLayout>
+
+    <!-- Stats Container -->
+    <LinearLayout
+        android:id="@+id/statsContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/chartContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <!-- Max Weight -->
+            <TextView
+                android:id="@+id/maxWeightTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/max_weight_placeholder"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Min Weight -->
+            <TextView
+                android:id="@+id/minWeightTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/min_weight_placeholder"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Calendar Streak -->
+        <TextView
+            android:id="@+id/calendarStreakTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calendar_streak"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/calendarStreakDatesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_streak_yet"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Downward Streak -->
+        <TextView
+            android:id="@+id/downwardStreakTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/downward_streak"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/downwardStreakDatesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_streak_yet"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Longest Plateau -->
+        <TextView
+            android:id="@+id/plateauTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/longest_plateau_label"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/plateauDatesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_plateau_yet"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/weightHistoryRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingBottom="8dp"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toBottomOf="@id/statsContainer"
+        app:layout_constraintBottom_toTopOf="@id/navigationButtonsContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:listitem="@layout/item_weight_entry" />
+
+    <LinearLayout
+        android:id="@+id/navigationButtonsContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Daily Entry -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dailyEntryButton"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:text="@string/button_daily_entry"
+            android:textSize="12sp"
+            android:minHeight="55dp"
+            app:cornerRadius="16dp" />
+
+        <!-- Set Goal -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/goalEntryButton"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:text="@string/button_set_goal"
+            android:textSize="12sp"
+            android:minHeight="55dp"
+            app:cornerRadius="16dp" />
+
+        <!-- Export CSV -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/exportCsvButton"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:text="@string/button_export"
+            android:textSize="12sp"
+            android:minHeight="55dp"
+            app:cornerRadius="16dp" />
+
+        <!-- Logout -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/logoutButton"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_weight="1"
+            android:text="@string/button_logout"
+            android:textSize="12sp"
+            android:minHeight="55dp"
+            app:cornerRadius="16dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

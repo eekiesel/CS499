@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="12dp"
+    app:strokeColor="@color/teal_700"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical"
+        android:background="@android:color/transparent">
+
+        <!-- Date of entry -->
+        <TextView
+            android:id="@+id/entryDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/sample_date"
+            android:textSize="16sp"
+            android:textColor="@color/textPrimary"
+            android:textStyle="bold"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:ellipsize="end" />
+
+        <!-- Weight entry -->
+        <TextView
+            android:id="@+id/entryWeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sample_weight"
+            android:textSize="16sp"
+            android:textColor="@color/textPrimary"
+            android:gravity="center"
+            android:ellipsize="end" />
+
+        <!-- Edit -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/editButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:text="✎"
+            android:textSize="18sp"
+            android:padding="0dp"
+            style="@style/Widget.Material3.Button.TextButton"
+            app:cornerRadius="12dp" />
+
+        <!-- Delete -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:text="🗑"
+            android:textSize="18sp"
+            android:padding="0dp"
+            style="@style/Widget.Material3.Button.TextButton"
+            app:cornerRadius="12dp" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
