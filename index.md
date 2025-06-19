@@ -16,6 +16,10 @@ This project not only allowed me to demonstrate the technical skills I’ve deve
 
 You'll find a summary of the narratives for each enhancement category in the sections below. Each narrative describes the work completed, some of the challenges I ran into, and how the updates reflect what I’ve learned and how my skills have grown. I’ve also included links to the original PDF submissions in the GitHub repository for each category if you’d like to take a closer look.
 
+<a href="https://github.com/eekiesel/CS499/tree/main/Milestone%20Narratives" target="_blank">
+  View all Milestone Narratives on GitHub
+</a>
+
 ##  Course Outcomes
 I believe the work I’ve done for this capstone project shows that I’ve met all of the course outcomes and reflects the knowledge and skills I’ve built throughout the Computer Science program. Below are some examples of how I've met each course outcome:
 
