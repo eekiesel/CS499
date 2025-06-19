@@ -14,7 +14,7 @@ For my capstone, I chose to enhance a mobile application originally created in m
 
 This project not only allowed me to demonstrate the technical skills I’ve developed, but also challenged me to think critically about design decisions, user experience, and long-term maintainability. I focused on applying real-world development practices by refactoring code to improve structure and readability, implementing new features that added real value to the user, and integrating third-party libraries and cloud services to extend functionality. Each enhancement aligned with one of the program outcomes and encouraged me to apply what I’ve learned in a cohesive and thoughtful way.
 
-You'll find a summary of the narratives for each enhancement category in the sections below. Each narritive describes the work completed, some of the challenges I ran into, and how the updates reflect what I’ve learned and how my skills have grown. I’ve also included links to the original PDF submissions in the GitHub repository for each category if you’d like to take a closer look.
+You'll find a summary of the narratives for each enhancement category in the sections below. Each narrative describes the work completed, some of the challenges I ran into, and how the updates reflect what I’ve learned and how my skills have grown. I’ve also included links to the original PDF submissions in the GitHub repository for each category if you’d like to take a closer look.
 
 ##  Course Outcomes
 I believe the work I’ve done for this capstone project shows that I’ve met all of the course outcomes and reflects the knowledge and skills I’ve built throughout the Computer Science program. Below are some examples of how I've met each course outcome:
